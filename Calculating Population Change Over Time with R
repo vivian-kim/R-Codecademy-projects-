@@ -1,0 +1,19 @@
+---
+title: "Introduction to R Syntax"
+output: html_notebook
+---
+```{r error=TRUE}
+
+}
+# Write your code starting here:
+
+city_name = "Istanbul,Turkey"
+pop_year_one <- 691000
+pop_year_two <- 15029231
+pop_change <- pop_year_two - pop_year_one
+percentage_gr <-((pop_year_two- pop_year_one)/pop_year_one) *100)
+annual_gr <- (percentage_gr/(2017-1927))
+print(annual_gr)
+
+
+```
